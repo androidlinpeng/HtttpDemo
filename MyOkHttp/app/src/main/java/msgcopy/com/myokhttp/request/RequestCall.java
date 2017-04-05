@@ -1,5 +1,6 @@
 package msgcopy.com.myokhttp.request;
 
+
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
@@ -11,10 +12,11 @@ import okhttp3.Request;
 import okhttp3.Response;
 
 /**
- * Created by liang on 2017/4/5.
+ * Created by zhy on 15/12/15.
+ * 对OkHttpRequest的封装，对外提供更多的接口：cancel(),readTimeOut()...
  */
-
-public class RequestCall {
+public class RequestCall
+{
     private OkHttpRequest okHttpRequest;
     private Request request;
     private Call call;
@@ -117,4 +119,6 @@ public class RequestCall {
             call.cancel();
         }
     }
+
+
 }

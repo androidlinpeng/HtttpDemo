@@ -7,27 +7,8 @@
     tools:context="msgcopy.com.myokhttp.MainActivity">
 
     <msgcopy.com.myokhttp.view.FlowLayout
-        android:id="@+id/flowLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:onClick="getString"
-            android:text="Get String" />
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:onClick="postString"
-            android:text="Post String" />
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:onClick="getImage"
-            android:text="Get Image" />
 
         <Button
             android:layout_width="wrap_content"
@@ -40,6 +21,12 @@
             android:layout_height="wrap_content"
             android:onClick="postFile"
             android:text="Post File" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="postString"
+            android:text="Post String" />
 
         <Button
             android:layout_width="wrap_content"
@@ -59,6 +46,11 @@
             android:onClick="getUsers"
             android:text="Get Users" />
 
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="getImage"
+            android:text="Get Image" />
 
         <Button
             android:layout_width="wrap_content"

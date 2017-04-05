@@ -4,12 +4,7 @@ import okhttp3.Call;
 import okhttp3.Request;
 import okhttp3.Response;
 
-/**
- * Created by liang on 2017/4/5.
- */
-
 public abstract class Callback<T> {
-
     /**
      * UI Thread
      *
